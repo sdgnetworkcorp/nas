@@ -1,0 +1,5 @@
+.terraform/
+terraform.exe
+terraform.zip
+AWSCLIV2.msi
+*.log

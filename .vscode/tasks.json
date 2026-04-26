@@ -1,0 +1,57 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "terraform init",
+            "type": "shell",
+            "command": ".\\terraform",
+            "args": ["init"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "terraform plan",
+            "type": "shell",
+            "command": ".\\terraform",
+            "args": ["plan"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "terraform apply",
+            "type": "shell",
+            "command": ".\\terraform",
+            "args": ["apply"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "terraform destroy",
+            "type": "shell",
+            "command": ".\\terraform",
+            "args": ["destroy"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        }
+    ]
+}
